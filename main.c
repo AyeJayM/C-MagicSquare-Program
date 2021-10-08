@@ -124,7 +124,6 @@ void main()
                                  {position7, position8, position9 } };
 
     CreatedSquares++;
-    printf("\nSquares generated: %d\n", CreatedSquares);
 
     RandomResult = ( MagicTest(RandomSquare) );
 
@@ -144,7 +143,7 @@ void main()
     while(RandomResult == 0);
     
     
-    printf("\nEnding Program...\n");
+    printf("\n\nEnding Program...\n");
 
 }
 
